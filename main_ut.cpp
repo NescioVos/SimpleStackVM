@@ -4,7 +4,6 @@
 // Main file runs unit tests for StackVirtualMachine class
 // Author: Ksenia Dolgorukova
 // ========================================================================== //
-
 #include "UnitTests.h"
 
 int main(){
