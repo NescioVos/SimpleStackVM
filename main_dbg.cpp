@@ -8,9 +8,9 @@
 #include "StackVMDebugger.h"
 
 int main(){
-    // Start the session for debugger
-    stackVM::StackMachineStepDebugger debugger;
-    debugger.RunDebug();
-    return 0;
+  // Start the session for debugger
+  stackVM::StackMachineStepDebugger debugger;
+  debugger.RunDebug();
+  return 0;
 }
 

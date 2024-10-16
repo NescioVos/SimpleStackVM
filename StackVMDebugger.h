@@ -11,13 +11,13 @@ namespace stackVM {
 
 class StackMachineStepDebugger{
 public:
-    // The main method, runs the debugging loop
-    void RunDebug();
+  // The main method, runs the debugging loop
+  void RunDebug();
 private:
-    bool parseNextCommand();
-    void interpretStepByStep();
+  bool parseNextCommand();
+  void interpretStepByStep();
 
-    StackVirtualMachine vm;
+  StackVirtualMachine vm;
 };
 
 }// namespace stackVM

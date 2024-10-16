@@ -7,7 +7,7 @@
 #include "UnitTests.h"
 
 int main(){
-    stackVMUnitTests::StackVMUnitTests unitTests;
-    unitTests.RunAllTests();
-    return 0;
+  stackVMUnitTests::StackVMUnitTests unitTests;
+  unitTests.RunAllTests();
+  return 0;
 }
